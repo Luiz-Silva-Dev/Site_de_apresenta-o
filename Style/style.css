@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria: #2c3639 ;
+    --cor-secundaria: #dcd7c9 ;
+    --cor-terciaria: #a27b5c;
+    --cor-hover: #3f4e4f;
+
+    --fonte-principal: 'Krona one', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.header{
+    padding: 4% 0 0 40%;
+}
+
+.header_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header_menu_link{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.texto{
+    color: var(--cor-terciaria);
+}
+
+strong{
+    color: var(--cor-terciaria);
+}
+.Apresentation{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Apresentation_content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Apresentation_content_title{
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+}
+
+.Apresentation_content_text{
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+}
+
+.Apresentation_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.Apresentation_links_subtitle{
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.Apresentation_links_link{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria)
+}
+
+.Apresentation_links_link:hover{
+    background-color: var(--cor-hover);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
