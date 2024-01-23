@@ -26,12 +26,12 @@ body{
 
 .header_menu{
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .header_menu_link{
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -52,19 +52,19 @@ strong{
 }
 
 .Apresentation_content{
-    width: 600px;
+    width: 37.5rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.50rem;
 }
 
 .Apresentation_content_title{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-principal);
 }
 
 .Apresentation_content_text{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -73,11 +73,11 @@ strong{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .Apresentation_links_subtitle{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-principal);
     font-weight: 400;
 }
@@ -86,14 +86,14 @@ strong{
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
-    gap: 16px;
-    border: 2px solid var(--cor-terciaria);
-    width: 280px;
+    gap: 1rem;
+    border: 0.125rem solid var(--cor-terciaria);
+    width: 17.5rem;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     font-weight: 600;
-    font-size: 24px;
-    padding: 15px 0px;
+    font-size: 1.5rem;
+    padding: 0.9375rem 0rem;
     text-decoration: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria)
@@ -106,9 +106,9 @@ strong{
 .rodape{
     display: flex;
     justify-content: center;
-    padding: 24px;
+    padding: 1.5rem;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
