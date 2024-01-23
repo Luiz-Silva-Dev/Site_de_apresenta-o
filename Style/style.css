@@ -26,7 +26,7 @@ body{
 
 .header_menu{
     display: flex;
-    gap: 5rem;
+    gap: 80px;
 }
 
 .header_menu_link{
@@ -52,10 +52,10 @@ strong{
 }
 
 .Apresentation_content{
-    width: 37.5rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2.50rem;
+    gap: 40px;
 }
 
 .Apresentation_content_title{
@@ -73,7 +73,7 @@ strong{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .Apresentation_links_subtitle{
@@ -82,31 +82,35 @@ strong{
     font-weight: 400;
 }
 
-.Apresentation_links_link{
+.Apresentation_links_navegation{
     /* background-color: yellow; */
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 16px;
     border: 0.125rem solid var(--cor-terciaria);
-    width: 17.5rem;
+    width: 50%;
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 8px;
     font-weight: 600;
     font-size: 1.5rem;
-    padding: 0.9375rem 0rem;
+    padding: 15px 0px;
     text-decoration: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria)
 }
 
-.Apresentation_links_link:hover{
+.Apresentation_links_navegation:hover{
     background-color: var(--cor-hover);
+}
+
+.Apresentation_img{
+    width: 50%;
 }
 
 .rodape{
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 24px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
