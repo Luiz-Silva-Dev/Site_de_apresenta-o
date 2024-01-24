@@ -49,6 +49,7 @@ strong{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .Apresentation_content{
@@ -115,4 +116,23 @@ strong{
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 5%;
+    }
+
+    .header_menu {
+        justify-content: center;
+    }
+
+    .Apresentation {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    
+    .Apresentation_content {
+        width: auto;
+    }
 }
